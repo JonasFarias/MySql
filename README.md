@@ -109,3 +109,15 @@ Será uma sequência de preferência numérica que identificará um registro.
 outro para você poder manipular e mostrar na tela, como o código do
 cliente, por exemplo. Isso ajudará na flexibilidade do seu sistema, na manutenibilidade e na performance."""
 
+
+
+Pronto! Criamos as tabelas do nosso projeto. Observe que comvendas,
+comivenda e comprodu contêm campos de outras tabelas. É o que chamamos de foreign key ou chave estrangeira.
+Introdução à chave estrangeira
+A chave estrangeira define um relacionamento entre tabelas, comumente
+chamado de integridade referencial. Esta regra baseia-se no fato de que uma
+chave estrangeira em uma tabela é a chave primária em outra. Na imagem
+1.2 que mostrei no início do livro como exemplo, uma tabela tem o campo
+id_estado, que é uma chave estrangeira. Isto é, ele pode se repetir na tabela
+de clientes. No entanto, deve ser único na tabela de estados, pois assim
+terá uma referência exclusiva. Exemplificando:
