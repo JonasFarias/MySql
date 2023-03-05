@@ -82,6 +82,8 @@ nome varchar(60);
 
  utilizando a instrução de criação, temos
 o nosso primeiro código para a montagem de uma:
+
+```
 mysql> create table comclien(
 n_numeclien int not null auto_increment,
 c_codiclien varchar(10),
@@ -91,11 +93,11 @@ d_dataclien date,
 c_cnpjclien varchar(20),
 c_foneclien varchar(20),
 primary key (n_numeclien));
+```
 
 
 
-
-Introdução à chave primária
+### Introdução à chave primária
 A chave primária é o que torna a linha ou o registro de uma tabela únicos.
 Geralmente, é utilizada uma sequência automática para a geração dessa chave
 para que ela não venha a se repetir. Em nosso caso, o n_numeclien será
@@ -103,7 +105,7 @@ para que ela não venha a se repetir. Em nosso caso, o n_numeclien será
 Será uma sequência de preferência numérica que identificará um registro.
 
 
-"""Dica: procure usar um campo para chave primária que não seja mostrado na tela de seu sistema. Crie um campo específico para ela e um
+"""Dica: procure usar um campo para chave primária que não seja mostrado na tela de seu sistema. Crie um campo específico para ela e um
 outro para você poder manipular e mostrar na tela, como o código do
-cliente, por exemplo. Isso ajudará na flexibilidade do seu sistema, na manutenibilidade e na performance."""
+cliente, por exemplo. Isso ajudará na flexibilidade do seu sistema, na manutenibilidade e na performance."""
 
